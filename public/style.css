@@ -1,0 +1,92 @@
+html, body {
+    height: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  #options {
+    height:100%;
+    width: 25%;
+    padding:5px;
+    background-image: linear-gradient(to bottom right, #0984e3, #6c5ce7);
+  }
+
+  #onlineList{
+      height: 75%;
+      width: 100%;
+      border:1px solid black;
+  }
+
+  .someoptions{
+      height:7%;
+      width:100%;
+      margin:2px 0;
+      padding: 1rem;
+      border-radius: 100rem;
+      font-family: 'Avenir Next';
+      font-size: 1rem;
+      padding: .5rem 3rem;
+      box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+      border: solid 3px transparent;
+      background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #6c5ce7 ,#0984e3);
+      background-origin: border-box;
+      background-clip: content-box, border-box;
+      box-shadow: 2px 1000px 1px #fff inset;
+  }
+
+  .someoptions:hover{
+    box-shadow: none;
+    color: white;
+    transition: 0.25s;
+    cursor:pointer;
+  }
+  
+  #area {
+    height: 100%;  
+    width:75%;
+    background-color: whitesmoke;
+  } 
+
+  #chat {
+    height: 80%;
+    width:90%;
+    margin: 5% auto;
+    padding: 10px;
+    display: flex;
+  }
+  
+  input {
+    width: 90%;
+    border: 0px solid;
+    border-radius:20px;
+    outline:none;
+    height: 10%;
+    margin: 10px 5%;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  
+  #submitButton {
+    width: 70%;
+    height: 10%;
+    font-size: 14px;
+    background-image: linear-gradient(to bottom right, #0984e3, #6c5ce7);
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    color: #FFF;
+    margin: 10px 15%;
+  }
+  
+  .messages {
+    width: 90%;
+    height: 55%;
+    margin: 2px 5%;
+    border: 0px solid;
+    background-color: white;
+    padding: 20px;
+  }
